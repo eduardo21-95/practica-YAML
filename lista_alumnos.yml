@@ -1,0 +1,37 @@
+alumnos:
+- item_id: 1
+  matricula: 21
+  nombre: "Jos\xE9 Eduardo"
+  apaterno: "G\xF3mez"
+  amaterno: "N\xE1jera"
+  edad: 25
+  correo: eduardonajera141@gmail.com
+  telefono: 9982151295
+  carrera: RIyC
+- item_id: 2
+  matricula: 654
+  nombre: Enrique
+  apaterno: Perez
+  amaterno: "Lop\xE9z"
+  edad: 22
+  correo: josue@gmail.com
+  telefono: 9191489637
+  carrera: RIyC
+- item_id: 3
+  matricula: 41
+  nombre: Francisco
+  apaterno: Mendoza
+  amaterno: Gordillo
+  edad: 18
+  correo: Mendoza@gmail.com
+  telefono: 9191033564
+  carrera: Gastronomia
+- item_id: 4
+  matricula: 51
+  nombre: Manuel
+  apaterno: Garcia
+  amaterno: Molina
+  edad: 48
+  correo: molina@gmail.com
+  telefono: 9982161396
+  carrera: Ingeniero civil

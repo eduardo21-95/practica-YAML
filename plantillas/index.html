@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>EduardoN</title>
+    <link href="{{ url_for('mirecurso', path='/bootstrap.min.css') }}" rel="stylesheet">
+    <script src="{{ url_for('mirecurso', path='/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('mirecurso', path='/bootstrap.bundle.min.js') }}"></script>
+
+</head>
+<body>
+    <br>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-item" href="/lista">Lista Integrantes</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    <h2>Bienvenidos</h2>
+    <h5><p>Este sitio le pertenece a Eduardo y mostrará los datos de los integrantes</p></h5>
+    <br>
+            {% for fila in lista %}
+                <a href="/ver_sitiopersonal/{{lista.index(fila)}}"><button class="btn btn-danger">{{iterrador}} {{fila.get('nombre')}}</button></a>
+                <br>
+            {% endfor %}
+    </body>
+    </html>
+

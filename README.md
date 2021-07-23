@@ -1,2 +1,2 @@
-# practica-YAML
- YAML con PYTHON
+# E2_MANEJO_YAML_CON-PYTHON
+YAML con Python
